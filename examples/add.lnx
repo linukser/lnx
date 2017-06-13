@@ -1,0 +1,18 @@
+#!/usr/bin/lnx
+
+var a: Int = 5
+var b: Int = 3
+var result: Int
+
+println "a = $(a)"
+println "b = $(b)"
+println
+
+print "result = $(a) + $(b) = "
+result = a + b
+println "$(result)"
+println
+
+print "result = $(result) + $(a) = "
+result = result + a
+println "$(result)"

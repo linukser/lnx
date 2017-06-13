@@ -1,0 +1,16 @@
+#!/usr/bin/lnx
+
+var a: Int = 0
+var b: Int = 1
+var c: Int
+
+print "$(a) $(b) "
+
+loop 20
+	c = a + b
+	print "$(c) "
+	a = b
+	b = c
+end loop
+
+println

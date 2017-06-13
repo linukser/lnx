@@ -1,0 +1,6 @@
+#!/usr/bin/lnx
+
+loop 3
+	println "abc"
+end loop
+

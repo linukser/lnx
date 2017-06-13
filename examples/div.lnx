@@ -1,0 +1,18 @@
+#!/usr/bin/lnx
+
+var a: Int = 5
+var b: Int = 3
+
+print "a = "
+println a
+
+print "b = "
+println b
+
+var div: Int
+
+div = a / b
+
+print "div = "
+println div
+

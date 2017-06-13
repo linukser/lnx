@@ -1,0 +1,11 @@
+#!/usr/bin/lnx
+
+var a: Int = 1
+
+println a
+
+a = a + 5
+#a = a + a
+
+println a
+
