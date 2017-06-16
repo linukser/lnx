@@ -1,0 +1,32 @@
+#!/usr/bin/lnx
+
+var fibonacci: List<Int>
+var aIndex: Int
+var bIndex: Int
+var a: Int
+var b: Int
+var c: Int
+
+fibonacci.append(0)
+fibonacci.append(1)
+
+print fibonacci[0]
+print " "
+print fibonacci[1]
+print " "
+
+i = 2
+loop 10
+	aIndex = i - 2
+	bIndex = i - 1
+	a = fibonacci[aIndex]
+	b = fibonacci[bIndex]
+	c = a + b
+	#println "a = $(a), b = $(b), c = $(c)"
+	fibonacci.append(c)
+	print fibonacci[i]
+	print " "
+	i = i + 1
+end loop
+
+println

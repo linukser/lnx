@@ -1,0 +1,15 @@
+#!/usr/bin/lnx
+
+var list: List<Int>
+var i: Int
+var a: Int = 1
+var c: Int = 1
+
+loop 10
+	list.append(a)
+	println list[i]
+	i = i + 1
+	a = a * 2
+	c = i + a
+	println c
+end loop

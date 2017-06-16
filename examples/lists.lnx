@@ -1,0 +1,23 @@
+#!/usr/bin/lnx
+
+var list: List<Int>
+
+list.append(9)
+list.append(10)
+list.append(11)
+
+println list[0]
+println list[1]
+println list[2]
+
+list[0] = 5
+
+println list[0]
+
+var a: Int = 7
+
+list[1] = 3
+list[2] = a
+
+println list[1]
+println list[2]
