@@ -24,6 +24,7 @@ loop 10
 	c = a + b
 	#println "a = $(a), b = $(b), c = $(c)"
 	fibonacci.append(c)
+	#fibonacci.append(fibonacci[i - 2] + fibonacci[i - 1])
 	print fibonacci[i]
 	print " "
 	i = i + 1
